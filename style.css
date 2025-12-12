@@ -1,0 +1,293 @@
+body {
+    background-image: url(assets/Background.jpg);
+    background-color: rgba(0, 0, 0, 0.9);
+    background-blend-mode: darken;
+}
+
+.title {
+    text-align: center;
+    font-family: Audiowide;
+    color: white;
+    font-size: 50px;
+    max-height: 100%;
+    align-items: center;
+    text-align: center;
+    margin-top: 0cm;
+}
+
+.tag {
+    font-weight: 300;
+    margin-top: -30px;
+    font-size: 25px;
+    max-width: 100%;
+}
+
+.home {
+    display: flex;
+}
+
+.ytbtn {
+    width: 250px;
+    background-color: rgba(184, 0, 0, 0.815);
+    border: none;
+    height: 150px;
+    border-radius: 100px;
+    margin-left: 660px;
+    font-family: Iceland;
+    font-size: 45px;
+    box-shadow: 0 0 40px red;
+    transition: 0.5s ease;
+    max-width: 100%;
+}
+
+.ytbtn:hover {
+    transform: scale(1.1);
+}
+
+.char {
+    margin-left: 8.5cm;
+    height: 10.5cm;
+    margin-top: -0.5cm;
+    max-width: 100%;
+}
+
+.nametag {
+    color: rgba(255, 255, 255, 0.836);
+    font-family: "Press Start 2P";
+    text-align: right;
+    margin-top: -1cm;
+    transform: rotate3d(1, 1, 1,10deg);
+}
+
+.navBar {
+    background-color: #000000b9;
+    width: 100%;
+    text-align: center;
+    gap: 50px;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    font-family: Poppins;
+    height: 100px;
+    border-radius: 25px;
+    align-items: center;
+    font-size: 20px;
+    box-shadow: #2c2c2c 3px 2px 6px;
+}
+
+.navBar a {
+    text-decoration: none;
+    color: rgb(91, 255, 255);
+    text-shadow: #00ffff 0px 0px 15px;
+    transition: 0.5s ease;
+}
+
+.navBar a:hover {
+    text-shadow: #00ffff 0px 0px 20px;
+    transform: scale(1.1);
+}
+
+.eyes {
+    justify-content: right;
+    margin-left: 0cm;
+    margin-top: -13cm;
+    color: white;
+    transform: rotate(-30deg);
+    max-width: 100%;
+}
+
+.logo {
+    border-radius: 50%;
+    margin-top: 2.9cm;
+    margin-left: 1cm;
+    transition: 0.5s ease;
+}
+
+.logo:hover {
+    box-shadow: #2c2c2c 0px 0px 15px;
+    transform: scale(1.1);
+}
+
+.navBar .active {
+    color: #39ff14;
+    text-shadow: rgb(0, 255, 13) 0px 0px 20px;
+}
+
+.navBar .active:hover {
+    text-shadow: rgb(0, 255, 13) 0px 0px 25px;
+}
+
+.abt{
+    margin-left: 17cm;
+    margin-top: -11cm;
+    color: white;
+    font-family: Poppins;
+    font-size: 20px;
+}
+
+.quote {
+    margin-left: 0cm;
+    margin-top: 0cm;
+    color: white;
+    font-family: Poppins;
+    font-size: 22px;
+}
+
+.subs {
+    margin-left: 17cm;
+    color: #ff2b2b;
+    text-shadow: red 0px 0px 20px;
+    font-size: 30px;
+    font-family: "Press Start 2P";
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.subs:hover {
+    text-shadow: red 0px 0px 25px;
+    font-size: 35px;
+}
+
+.vid {
+    display: flex;
+    justify-content: center;
+    margin-top: 2cm;
+    gap: 1cm;
+}
+
+.vid img {
+    border-radius: 25px;
+    box-shadow: #2c2c2c 4px 3px 10px;
+    transition: 0.5s ease;
+}
+
+.vid img:hover {
+    transform: scale(1.1);
+}
+
+.heading {
+    text-align: center;
+    font-family: Audiowide;
+    color: white;
+    font-size: 75px;
+    max-height: 100%;
+    align-items: center;
+    text-align: center;
+    margin-top: 0cm;
+}
+
+#txt1 {
+    font-size: 25px;
+    font-family: Poppins;
+    color: white;
+    margin-right: 30cm;
+    margin-left: 2cm;
+    text-align: center;
+}
+
+#txt2 {
+        font-size: 25px;
+    font-family: Poppins;
+    color: white;
+    margin-right: 15cm;
+    margin-left: 15cm;
+    margin-top: -3.5cm;
+    text-align: center;
+}
+
+#txt3 {
+        font-size: 25px;
+    font-family: Poppins;
+    color: white;
+    margin-right: 2cm;
+    margin-left: 30cm;
+    margin-top: -2.5cm;
+    text-align: center;
+}
+
+#btn1 {
+    margin-left: 4.8cm;
+    margin-top: 10px;
+    width: 4cm;
+    height: 1cm;
+    background-color: #ff2b2b;
+    border: none;
+    border-radius: 25px;
+    font-family: Poppins;
+    font-size: 20px;
+    box-shadow: red 0px 0px 15px;
+    transition: 0.5s ease;
+}
+
+#btn2 {
+    margin-left: 9.8cm;
+    margin-top: 10px;
+    width: 4cm;
+    height: 1cm;
+    background-color: #ff2b2b;
+    border: none;
+    border-radius: 25px;
+    font-family: Poppins;
+    font-size: 20px;
+    box-shadow: red 0px 0px 15px;
+    transition: 0.5s ease;
+}
+
+#btn3 {
+    margin-left: 9.8cm;
+    margin-top: 10px;
+    width: 4cm;
+    height: 1cm;
+    background-color: #ff2b2b;
+    border: none;
+    border-radius: 25px;
+    font-family: Poppins;
+    font-size: 20px;
+    box-shadow: red 0px 0px 15px;
+    transition: 0.5s ease;
+}
+
+#btn1:hover, #btn2:hover, #btn3:hover {
+    box-shadow: red 0px 0px 20px;
+    transform: scale(1.1);
+}
+
+.text {
+    font-family: Poppins;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -1cm;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 3cm;
+    margin-top: 2cm;
+}
+
+.instagram, .discord, .youtube {
+    width: 5cm;
+    height: 5cm;
+    transition: 0.5s ease;
+}
+
+.instagram:hover, .discord:hover, .youtube:hover {
+    transform: scale(1.1);
+}
+
+.footer {
+    background-color: #000000b9;
+    height: 3.7cm;
+    border-radius: 25px;
+    font-size: 20px;
+    box-shadow: #2c2c2c 3px 2px 6px;
+    margin-top: 1cm;
+    color: white;
+    font-family: Poppins;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
